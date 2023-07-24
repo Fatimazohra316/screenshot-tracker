@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c72dbf3.css",
+    "main.js": "/static/js/main.6fcffa9e.js",
+    "static/js/787.9e1dff5a.chunk.js": "/static/js/787.9e1dff5a.chunk.js",
+    "static/media/popHeadLogo.webp": "/static/media/popHeadLogo.bb5db871a6e56fafdcbd.webp",
+    "static/media/playButton.webp": "/static/media/playButton.7d352b69b35c4529969d.webp",
+    "static/media/stopButton.webp": "/static/media/stopButton.ecd8bf7026b30bfc5f18.webp",
+    "static/media/CloseIcon.webp": "/static/media/CloseIcon.87a3ce4a4642ccce978e.webp",
+    "static/media/setting.webp": "/static/media/setting.611d8b71030e6a89570f.webp",
+    "static/media/verified.webp": "/static/media/verified.f706a0a4dc62a5364e1b.webp",
+    "static/media/moreIcon.webp": "/static/media/moreIcon.b944877e3bc8e76c0266.webp",
+    "static/media/arrow.webp": "/static/media/arrow.da05fd627ae9eb9e6bef.webp",
+    "index.html": "/index.html",
+    "static/media/addProjectIcon.webp": "/static/media/addProjectIcon.771ee1d0669c82f479f1.webp",
+    "static/media/dropdown.webp": "/static/media/dropdown.4638b15152b3df61c48d.webp",
+    "static/media/maximize.webp": "/static/media/maximize.28cff7981316ade405ec.webp",
+    "static/media/minimize.webp": "/static/media/minimize.e1c1fa19f6d80e47ebf5.webp",
+    "main.6c72dbf3.css.map": "/static/css/main.6c72dbf3.css.map",
+    "main.6fcffa9e.js.map": "/static/js/main.6fcffa9e.js.map",
+    "787.9e1dff5a.chunk.js.map": "/static/js/787.9e1dff5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c72dbf3.css",
+    "static/js/main.6fcffa9e.js"
+  ]
+}

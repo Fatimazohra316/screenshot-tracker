@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "My Screen Tracker",
+  "version": "1.0.0",
+  "description": "A simple time tracking Chrome extension.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "desktopCapture",
+    "alarms",
+    "activeTab",
+    "tabs",
+    "<all_urls>",
+    "runtime",
+    "storage",
+    "downloads",
+    "scripting",
+    "bookmarks"
+  ],
+  "externally_connectable": {
+    "matches": ["https://*/*", "http://*/*"]
+  },
+  "background": {
+    "service_worker": "background.js"
+   
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "tracking.png",
+    "48": "tracking.png",
+    "128": "tracking.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "host_permissions": [ "<all_urls>" ]
+}
